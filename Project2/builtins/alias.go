@@ -6,10 +6,8 @@ import (
 )
 
 func Alias(args ...string) error {
-	// join the arguments
-	alias := strings.Join(args, " ")
 
-	// print results
+	alias := strings.Join(args, " ")
 	fmt.Println("Alias: " + alias)
 	return nil
 }
